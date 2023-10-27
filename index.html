@@ -1,13 +1,73 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="app"></div>
+    <div class="tool">
+      <div class="group-list">
+        <div class="group">
+          <p class="title">车漆颜色</p>
+          <div class="item-wrap">
+            <div data-col="#ff9900">
+              <div class="col" style="background-color: #ff9900;"></div>
+              <p>土豪金</p>
+            </div>
+            <div data-col="#343a40">
+              <div class="col" style="background-color: #343a40;"></div>
+              <p>传奇黑</p>
+            </div>
+            <div data-col="#409EFF">
+              <div class="col" style="background-color: #409EFF;"></div>
+              <p>海蓝</p>
+            </div>
+            <div data-col="#6600ff">
+              <div class="col" style="background-color: #6600ff;"></div>
+              <p>玫瑰紫</p>
+            </div>
+            <div data-col="#DCDFE6">
+              <div class="col" style="background-color: #DCDFE6;"></div>
+              <p>银灰色</p>
+            </div>
+          </div>
+        </div>
+        <div class="group">
+          <p class="title">贴膜切换</p>
+          <div class="item-wrap">
+            <p class="info-btn">高光 ¥0</p>
+            <p class="info-btn">磨砂 ¥20000</p>
+          </div>
+        </div>
+        <div class="group">
+          <p class="title">场景切换</p>
+          <div class="item-wrap">
+            <p class="info-btn">展厅</p>
+            <p class="info-btn">户外</p>
+          </div>
+        </div>
+        <div class="group">
+          <p class="title">视角切换</p>
+          <div class="item-wrap">
+            <p class="info-btn">驾驶位</p>
+            <p class="info-btn">副驾驶</p>
+            <p class="info-btn">外观</p>
+          </div>
+        </div>
+      </div>
+      <div class="price">
+        <span>¥ 2444700.00 </span>
+        <div class="next_btn"> 下一步 </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
